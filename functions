@@ -1,4 +1,7 @@
-// Basic coding to print name in Python
+print ("hello, my name is \nRuchika Prasad") #print function
+i= texmaco            #gives input
+print(len(i))         #prints length 
 
-print ("hello, my name is \nRuchika Prasad")
+
+
   
