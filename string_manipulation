@@ -1,0 +1,8 @@
+#concatenation
+#spaces very important in python
+#what if you want to print with space
+#spaces very important in python and try to reduce indentation error
+
+
+print ("Just"+ "Joking") #this will display JustJoking
+print ("Just"+ " "+ "Joking") #this will display  Just Joking
