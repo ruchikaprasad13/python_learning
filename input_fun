@@ -1,0 +1,10 @@
+#we will learn how to use input() in Python
+
+input ("What is your name \n")
+print("Nice meeting you "+ input ("What is your name \n") + "!")
+
+#this is one easy way of doing it 
+#the other way of doing it will be by introducting variables
+
+name=input ("what is your name \n")
+print("Nice meeting you "+ name + "!")
