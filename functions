@@ -17,6 +17,17 @@ i=str()                    #converts the data type from string to string
 i=bool()                   #converts the data type from string to boolena
 
 
+#pemdas (), **, *, /, +, -
+
+print(3 + 5)              #adds
+print(3 - 5)              #subtracts
+print(3 * 2)              #mulitplication
+print(6 / 3)              #division to float
+print(6 // 3)             #division to integer
+print(2**2)               #exponent
+
+
+
 
 
 
