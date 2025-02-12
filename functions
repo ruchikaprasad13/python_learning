@@ -4,8 +4,17 @@ print(len(i))         #prints length
 len(12345)            #this will give error, this is only for strings and not integers
 
 
-print("hello"[0])              #this is a string and prints character 0 --> h
+print("hello"[0])           #this is a string and prints character 0 --> h
+print (type("hello"))       #prints the data type  <class 'str'>
+print (type(1234))          #prints the data type  <class 'int'>
+print (type(3.14))          #prints the data type  <class 'float'>
+print (type(False))         #prints the data type  <class 'bool'>
 
+
+i=int("456")               #converts the data type from string to int
+i=float()                  #converts the data type from string to float
+i=str()                    #converts the data type from string to string
+i=bool()                   #converts the data type from string to boolena
 
 
 
