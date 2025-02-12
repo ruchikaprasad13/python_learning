@@ -1,6 +1,8 @@
 print ("hello, my name is \nRuchika Prasad") #print function
 i= texmaco            #gives input
 print(len(i))         #prints length 
+len(12345)            #this will give error, this is only for strings and not integers
+
 
 print("hello"[0])              #this is a string and prints character 0 --> h
 
