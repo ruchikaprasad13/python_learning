@@ -37,6 +37,17 @@ what_if = True
 print (f"Your score is ={score}, Your height is {height}, Your statement is {what_if}")   #f strings to insert a variable or an expression into a string,
 
 
+if height > 180:
+  print ("You can ride the rollercoaster")
+else:
+  print("sorry you are not allowed")
+
+print(10%5)       #modular , what is the remainder, here the output will be 0
+
+
+
+
+
 
 
 
