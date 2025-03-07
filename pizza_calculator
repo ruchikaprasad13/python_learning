@@ -1,0 +1,26 @@
+print ("Welcome to Ruchika's Pizza Parlour. Can I have your oder")
+size = input ("What size of Pizza do you want S, M, L ? ")
+peperoni = input ("Do you want to add peperoni to it. Y/N? ")
+cheese = input ("Do you want extra cheese. Y/N? ")
+
+bill = 0
+if size == "S":
+    bill += 20
+elif size == "M":
+    bill += 30
+elif size == "L":
+    bill += 35
+else:
+    print ("The input is incorrect pls put the correct input")
+
+if peperoni == "Y":
+    if size == "S":
+        bill += 2
+    else:
+        bill += 3
+
+if cheese == "Y":
+    bill += 2
+
+print (f"The final bill amount is: $ {bill}")
+
