@@ -51,6 +51,9 @@ elif b==2
   print ("cxz")
 
 
+print('You\'re genius and "brilliant" and "cute".')  #this \ backslash helps to omit the important functions if they can be used.
+input("what is your name").lower()                  #converts the input to lower case, irrespective of what people write.
+
 
 
 
