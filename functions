@@ -51,21 +51,28 @@ elif b==2
   print ("cxz")
 
 
-print('You\'re genius and "brilliant" and "cute".')  #this \ backslash helps to omit the important functions if they can be used.
-input("what is your name").lower()                  #converts the input to lower case, irrespective of what people write.
+print('You\'re genius and "brilliant" and "cute".')      #this \ backslash helps to omit the important functions if they can be used.
+input("what is your name").lower()                       #converts the input to lower case, irrespective of what people write.
 
-random_no_gen = ramdom.random()                   #random module then we use the function inside it called random that generates 
+random_no_gen = ramdom.random()                          #random module then we use the function inside it called random that generates 
 random_float = random.uniform(1,10)
-random_int= random.randint (1,20)                #random integ
+random_int= random.randint (1,20)                        #random integ
 
 state = ["bihar", "uttar pradesh", "data","wikipedia"]   #putting a list
 print(state[2])
 print(random.choice(state))                              #printing random name from the list
 
-names = ["Ram", "Shyam", "Ramesh"]                  #for loop that lopps through a list
+names = ["Ram", "Shyam", "Ramesh"]                       #for loop that lopps through a list
 for name in names:
   print(name)
 
+
+number= [1,2,3,4,5]                                     #add the scores using loop functions
+total = sum(number)
+sum=0 
+for score in number:
+  sum += score
+print(sum)
 
 
 
