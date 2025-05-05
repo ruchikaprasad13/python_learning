@@ -7,3 +7,15 @@ print(type("Number of letters in your name : "))   #str
 print(type(length_of_the_name))                    #int
 
 print ("Number of letters in your name : " +str(length_of_the_name))
+
+# task to print number from 1-100 with number divisible by 3 print fizz, by 5 Buzz and by 15 fizzbuzz
+
+for number in range(1,101): 
+    if number%3==0 and number%5== 0:
+        print("FizzBuzz")
+    elif number%3 == 0:
+        print("Fizz")
+    elif number%5 == 0:
+        print("Buzz")
+    else :
+        print(number)
