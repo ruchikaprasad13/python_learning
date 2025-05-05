@@ -62,6 +62,11 @@ state = ["bihar", "uttar pradesh", "data","wikipedia"]   #putting a list
 print(state[2])
 print(random.choice(state))                              #printing random name from the list
 
+names = ["Ram", "Shyam", "Ramesh"]                  #for loop that lopps through a list
+for name in names:
+  print(name)
+
+
 
 
 
