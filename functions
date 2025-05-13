@@ -91,13 +91,27 @@ number_of_hurdles= 10                                   #while loop
 while number_of_hurdles <5
   my_function()
 
+letter ={"a", "b","c"}                                #for loop
+number = 2
+for dance in letter:
+  if letter==number  
+    print("Hi)
+  else:
+    print("bye")
 
-def greet_with_name(name):
+def greet_with_name(name):                             #calling one variable
     print(f"Hello {name}")
     print(f"How are you doing{name}?")
 
 greet_with_name("Ruchika")
 
+
+def greet_with(name, location):                        #callig two variables
+    print(f"Hello {name}")
+    print(f"What is it like in {location}")
+
+greet_with("Ruchika", "Indonesia")
+    
 
 
 
